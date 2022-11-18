@@ -5,7 +5,7 @@
 
 Studies to keep practicing and test some logics
 
-## Check the exercises in your computer
+## Check the exercises on your computer
 
 run `docker-compose up -d`
 
