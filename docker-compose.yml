@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    container_name: js-studies
+    build:
+      context: ./
+      dockerfile: js-studies.dockerfile
+    volumes: 
+      - ./:/var/www/html/
+    restart: always
+    ports:
+      - "80:80"
+ 
